@@ -22,3 +22,16 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+@media screen and (max-width: 480px) {
+    .productList {
+      padding: 10px;
+    }
+  
+    .productList-texts {
+      width: 100%;
+    }
+  
+    .productList-desc {
+      display: none;
+    }
+  }
